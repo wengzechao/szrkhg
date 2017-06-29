@@ -1,0 +1,744 @@
+*{ 
+    margin:0; 
+    padding:0;
+}
+.body{ 
+    width:100%;
+    font-family: Arial;
+}
+
+.content{    
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+@media screen and (min-width: 1025px){
+    /*菜单按钮*/
+    .mobile{
+        display: none;
+    }
+    /*菜单栏*/
+    .navbar{
+        display: none;
+    }
+    .content-up{
+        list-style-type:none;
+        width:100%;
+        height: 80px;
+        line-height: 80px;
+        display: flex;
+        border-bottom: 1px solid #DFFAED;
+    }
+    .content-up-left{
+        width:30%;
+        font-size: 23px;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: row;
+    }
+    .content-up-left-mobile{
+        color: #D9FAE9;
+    }
+    .content-up-left-massages{
+        font-weight: bold;
+        margin-left: 0.5%;
+        color: #64D1A3;
+    }
+    .content-up-center{
+        font-size: 18px;
+        width:54%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .content-up-center li{
+        margin-right: 2%; 
+    }
+    #content-up-center-booking{
+        font-weight: bold;
+        color: #999999;
+    }
+    .content-up-center li a{
+        color: #A6A6A6;
+        text-decoration:none;
+    }
+    .content-up-right{
+        width: 13%;
+        text-align: center;
+        font-size: 18px;
+    }
+    #content-up-right-login{
+        color: #77D6AE;
+        text-decoration:none;
+    }
+
+    .content-middle{
+        width: 100%;
+        text-align: center;
+    }
+    .content-middle-contact{
+        height: 150px;
+        width: 100%;
+        line-height: 150px;
+        font-size: 48px;
+        color: #64D1A3;
+        margin-top: 120px;
+    }
+    .content-middle-detail{
+        height: 36px;
+        width: 100%;
+        font-size: 30px;
+        color: #666666;
+    }
+    .content-middle-phone{
+        height: 150px;
+        line-height: 150px;
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+    }
+    .phone-word{
+        width: 48%;
+        text-align: right;
+        font-weight: bold;
+    }
+    .phone-number{
+        width: 52%;
+        text-align: left;
+        font-family: times;
+    }
+    .message-top {
+        margin-top: 10px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 36%;
+        width: 27%;
+        height: 38px;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+    }
+    .content-middle-message-message{
+        padding-bottom: 180px;
+        padding-top: 10px;
+        word-wrap: break-word;
+    }
+    input::-webkit-input-placeholder{
+        color: #CBCBCB;
+    }
+    textarea::-webkit-input-placeholder { 
+        color: #CBCBCB;
+        font-family: Arial;
+    }
+    .content-middle-send{
+        height: 60px;
+        width: 18%;
+        margin-top: 100px;
+        margin-left: 10px;
+        background-color: #64D2A3;
+        border: 0;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    /*页脚*/
+    .content-down{
+        height: 260px;
+        width: 100%;
+        margin-top: 150px;
+        background-color: #2BAB8B;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /*菜单按钮*/
+    .mobile{
+        display: none;
+    }
+    /*菜单栏*/
+    .navbar{
+        display: none;
+    }
+    .content-up{
+        list-style-type:none;
+        width:100%;
+        height: 60px;
+        line-height: 60px;
+        display: flex;
+        border-bottom: 1px solid #DFFAED;
+    }
+    .content-up-left{
+        width:30%;
+        font-size: 18px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    .content-up-left-mobile{
+        color: #D9FAE9;
+    }
+    .content-up-left-massages{
+        font-weight: bold;
+        margin-left: 1%;
+        color: #64D1A3;
+    }
+    .content-up-center{
+        font-size: 13px;
+        width:54%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .content-up-center li{
+        margin-right: 2%; 
+    }
+    #content-up-center-contact{
+        font-weight: bold;
+        color: #999999;
+    }
+    .content-up-center li a{
+        color: #A6A6A6;
+        text-decoration:none;
+    }
+    .content-up-right{
+        width: 13%;
+        text-align: center;
+        font-size: 13px;
+    }
+    #content-up-right-login{
+        color: #77D6AE;
+        text-decoration:none;
+    }
+
+    /*contact*/
+    .content-middle{
+        width: 100%;
+        text-align: center;
+    }
+    .content-middle-contact{
+        height: 100px;
+        width: 100%;
+        line-height: 100px;
+        font-size: 32px;
+        color: #64D1A3;
+        margin-top: 40px;
+    }
+    .content-middle-detail{
+        height: 24px;
+        width: 100%;
+        font-size: 20px;
+        color: #666666;
+    }
+    .content-middle-phone{
+        height: 100px;
+        line-height: 100px;
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+    }
+    .phone-word{
+        width: 48%;
+        text-align: right;
+        font-weight: bold;
+    }
+    .phone-number{
+        width: 52%;
+        text-align: left;
+        font-family: times;
+    }
+    .message-top {
+        margin-top: 16px;
+        padding-left: 20px;
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+        margin-left: 25%;
+        height: 50px;
+        font-style:italic; 
+    }
+    .content-middle-message-message{
+        padding-bottom: 300px;
+        padding-top: 18px;
+        word-wrap: break-word;
+    }
+    input::-webkit-input-placeholder{
+        color: #CBCBCB;
+    }
+    textarea::-webkit-input-placeholder { 
+        color: #CBCBCB;
+        font-family: Arial;
+    }
+    .content-middle-send{
+        height: 60px;
+        width: 30%;
+        margin-top: 80px;
+        padding-left: 10px;
+        background-color: #64D2A3;
+        border: 0;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    /*页脚*/
+    .content-down{
+        height: 170px;
+        width: 100%;
+        margin-top: 80px;
+        background-color: #2BAB8B;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    /*菜单按钮*/
+    .mobile{
+        position: absolute;
+        top:8px; 
+        right:50px;
+    }
+    .mobile-openbtn {
+        float:right; 
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        cursor: pointer;
+        outline:none;
+    }
+    .mobile-openbtn:active {
+        border: 1px solid #CBCBCB;
+    }
+    .mobile-openbtn .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #CBCBCB;
+    }
+    .mobile-openbtn .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+
+    /*菜单栏*/
+    .navbar{
+        display: none;
+        cursor:pointer;
+        position:relative;
+        z-index:10;
+        height: 100%;
+        width: 75%;
+    }
+    /*关闭菜单*/
+    .navbar img{
+        position:absolute; 
+        z-index: 2000;
+        display:block;
+    }
+    #navbar-img{
+        position: absolute;
+        width: 30px;
+        height: width;
+        right: 20px;
+        top: 15px;
+    }
+    /*菜单背景*/
+    .navbar-background{ 
+        width:100%; 
+        height:100%; 
+        position:absolute; 
+        right:0; 
+        z-index:-5;
+    }
+    .navbar-background img{ 
+        width:100%; 
+        height:100%;
+        position:absolute; 
+        right:0; 
+        z-index:-5;
+    }
+    /*菜单头*/
+    .navbar-top{
+        width:97%;
+        height: 50px;
+        z-index:20;
+        display: flex;
+        flex-direction: row;
+        line-height: 60px;
+    }
+    .navbar-top-menu{
+        width: 30%;
+        font-size: 30px;
+        color: #CBCBCB;
+        text-align: center;
+    }
+    .navbar-top-mobile{
+        width: 20%;
+        font-size: 18px;
+        margin-left: 12px;
+        color: #77D6AE;
+        text-align: right;
+    }
+    .navbar-top-massages{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 4px;
+        color: #64D1A3;
+        text-align: left;
+    }
+
+    /*菜单*/
+    .navbar-choose{ 
+        width:100%;
+        z-index:20;
+        position:relative;
+        right:0; 
+        top: 1%;
+    }
+    .navbar-choose li{ 
+        width:100%;
+        height:45px;
+        line-height: 45px;
+        list-style-type:none;
+        border-top: 2px solid #F2F2F2;
+        font-weight: bold;
+    }
+    #navbar-choose-home{
+        color: #666666;
+    }
+    .navbar-choose li a{ 
+        font-size:18px; 
+        color: #A6A6A6;
+        margin-left: 6%;
+        text-decoration:none;
+    }
+    .content-up-right{
+        display: none;
+    }
+    .content-up-center{
+        display: none;
+    }
+    .content-up-left{
+        width:100%;
+        height: 60px;
+        font-size: 18px;
+        line-height: 60px;
+        display: flex;
+    }
+    .content-up-left-mobile{
+        width: 48%;
+        color: #77D6AE;
+        text-align: right;
+    }
+    .content-up-left-massages{
+        width: 52%;
+        font-weight: bold;
+        margin-left: 1%;
+        color: #64D1A3;
+    }
+
+    /*contact*/
+    .content-middle{
+        width: 100%;
+        text-align: center;
+    }
+    .content-middle-contact{
+        height: 70px;
+        width: 100%;
+        font-size: 30px;
+        color: #64D1A3;
+    }
+    .content-middle-detail{
+        height: 24px;
+        width: 100%;
+        font-size: 18px;
+        color: #666666;
+    }
+    .content-middle-phone{
+        height: 70px;
+        line-height: 70px;
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+    }
+    .phone-word{
+        width: 48%;
+        text-align: right;
+        font-weight: bold;
+    }
+    .phone-number{
+        width: 52%;
+        text-align: left;
+        font-family: times;
+    }
+    .message-top {
+        margin-top: 10px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 27%;
+        width: 44%;
+        height: 36px;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+    }
+    .content-middle-message-message{
+        padding-bottom: 240px;
+        padding-top: 10px;
+        word-wrap: break-word;
+    }
+    input::-webkit-input-placeholder{
+        color: #CBCBCB;
+    }
+    textarea::-webkit-input-placeholder { 
+        color: #CBCBCB;
+        font-family: Arial;
+    }
+    .content-middle-send{
+        height: 55px;
+        width: 36%;
+        margin-top: 40px;
+        background-color: #64D2A3;
+        border: 0;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    /*页脚*/
+    .content-down{
+        height: 110px;
+        width: 100%;
+        margin-top: 70px;
+        background-color: #2BAB8B;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /*菜单按钮*/
+    .mobile{
+        position: absolute;
+        top:0; 
+        right:0;
+    }
+    .mobile-openbtn {
+        float:right; 
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        cursor: pointer;
+        outline:none;
+    }
+    .mobile-openbtn:active {
+        border: 1px solid #CBCBCB;
+    }
+    .mobile-openbtn .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #CBCBCB;
+    }
+    .mobile-openbtn .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+
+    /*菜单栏*/
+    .navbar{
+        display: none;
+        cursor:pointer;
+        position:relative;
+        z-index:10;
+        height:99%;
+        width: 85%;
+    }
+    /*关闭菜单*/
+    .navbar img{
+        position:absolute; 
+        z-index: 2000;
+        display:block;
+    }
+    #navbar-img{
+        position: absolute;
+        width: 10%;
+        height: width;
+        right: 5%;
+        top: 4%;
+    }
+    /*菜单背景*/
+    .navbar-background{ 
+        width:100%; 
+        height:100%; 
+        position:absolute; 
+        right:0; 
+        z-index:-5;
+    }
+    .navbar-background img{ 
+        width:100%; 
+        height:100%;
+        position:absolute; 
+        right:0; 
+        z-index:-5;
+    }
+    /*菜单头*/
+    .navbar-top{
+        width:100%;
+        margin-top: 5%;
+        margin-left: 3%;
+        z-index:20;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        line-height: 55px;
+    }
+    .navbar-top-menu{
+        font-size: 24px;
+        color: #CBCBCB;
+    }
+    .navbar-top-mobile{
+        font-size: 16px;
+        margin-left: 12px;
+        color: #77D6AE;
+    }
+    .navbar-top-massages{
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 4px;
+        color: #64D1A3;
+    }
+    /*菜单*/
+    .navbar-choose{ 
+        width:100%;
+        z-index:20;
+        position:relative;
+        right:0; 
+        top: 1%;
+    }
+    .navbar-choose li{ 
+        width:100%; 
+        height:35px; 
+        list-style-type:none;
+        border-top: 2px solid #F2F2F2;
+        font-weight: bold;
+    }
+    #navbar-choose-home{
+        color: #666666;
+    }
+    .navbar-choose li a{ 
+        font-size:16px; 
+        color: #A6A6A6;
+        margin-left: 6%;
+        text-decoration:none;
+    }
+
+    /*Mobile massages*/
+    .content-up-right{
+        display: none;
+    }
+    .content-up-center{
+        display: none;
+    }
+    .content-up-left{
+        width:100%;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+        display: flex;
+    }
+    .content-up-left-mobile{
+        width: 45%;
+        color: #77D6AE;
+        text-align: right;
+    }
+    .content-up-left-massages{
+        width: 55%;
+        font-weight: bold;
+        margin-left: 1%;
+        color: #64D1A3;
+    }
+
+    /*contact*/
+    .content-middle{
+        height: 620px;
+        width: 100%;
+        text-align: center;
+    }
+    .content-middle-contact{
+        height: 45px;
+        width: 100%;
+        line-height: 35px;
+        font-size: 20px;
+        color: #64D1A3;
+    }
+    .content-middle-detail{
+        height: 14px;
+        width: 100%;
+        font-size: 12px;
+        color: #666666;
+    }
+    .content-middle-phone{
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+    }
+    .phone-word{
+        width: 45%;
+        text-align: right;
+        font-weight: bold;
+    }
+    .phone-number{
+        width: 55%;
+        text-align: left;
+        font-family: times;
+    }
+    .message-top {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    .content-middle-message-name{
+        width: 75%;
+        height: 38px;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+    }
+    .content-middle-message-email{
+        width: 75%;
+        height: 38px;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+    }
+    .content-middle-message-message{
+        width: 75%;
+        padding-bottom: 180px;
+        padding-top: 10px;
+        border: 1px solid #CBCBCB;
+        color: #CBCBCB;
+        word-wrap: break-word;
+    }
+    input::-webkit-input-placeholder{
+        color: #CBCBCB;
+    }
+    textarea::-webkit-input-placeholder { 
+        color: #CBCBCB;
+        font-family: Arial;
+    }
+    .content-middle-send{
+        height: 50px;
+        width: 55%;
+        margin-top: 40px;
+        background-color: #64D2A3;
+        border: 0;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    /*页脚*/
+    .content-down{
+        height: 125px;
+        width: 100%;
+        background-color: #2BAB8B;
+    }
+}
