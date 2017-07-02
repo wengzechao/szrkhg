@@ -73,10 +73,10 @@ body{
     .content-down{
         height: 240px;
         width: 100%;
+        margin-top: 250px;
         background-color: #2BAB8B;
     }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1024px){
     /*页头-至content-middle*/
     /*菜单按钮*/
@@ -137,6 +137,7 @@ body{
     .content-down{
         height: 180px;
         width: 100%;
+        margin-top: 640px;
         background-color: #2BAB8B;
     }
 }
@@ -292,10 +293,10 @@ body{
     .content-down{
         height: 120px;
         width: 100%;
+        margin-top: 130px;
         background-color: #2BAB8B;
     }
 }
-
 @media screen and (max-width: 425px) {
     /*页头-至content-middle*/
     /*菜单按钮*/
@@ -445,6 +446,7 @@ body{
     .content-down{
         height: 160px;
         width: 100%;
+        margin-top: 75px;
         background-color: #2BAB8B;
     }
 }
