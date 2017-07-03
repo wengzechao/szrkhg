@@ -91,6 +91,10 @@
         width: 90%;
         margin-left: 5%;
     }
+    .ui-none{
+        width: 0%;
+        height: 0px;
+    }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
 	.ui-twomen{
@@ -98,13 +102,24 @@
         display: flex;
     }
     .ui-women{
-        width: 50%;
+        width: 45%;
     }
     .ui-all{
         width: 90%;
         margin-left: 5%;
     }
-
+    .ui-none{
+        width: 10%;
+    }
+    .ui-button{
+        width: 40%;
+    }
+    .ui-picture img{
+        height: 100px;
+    }
+    .ui-text-page{
+        font-size: 8px;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.ui-twomen{
@@ -112,11 +127,20 @@
         display: flex;
     }
     .ui-women{
-        width: 50%;
+        width: 40%;
     }
     .ui-all{
         width: 90%;
         margin-left: 5%
+    }
+    .ui-none{
+        width: 20%;
+    }
+    .ui-picture img{
+        height: 140px;
+    }
+    .ui-button{
+        width: 22%;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -125,10 +149,16 @@
         display: flex;
     }
     .ui-women{
-        width: 50%;
+        width: 40%;
     }
     .ui-all{
         width: 70%;
         margin-left: 15%;
+    }
+    .ui-none{
+        width: 20%;
+    }
+    .ui-button{
+        width: 22%;
     }
 }
