@@ -133,6 +133,7 @@ body{
         display: flex;
         flex-direction: column;
         margin-left: 36%;
+        font-weight: bold;
         width: 27%;
         height: 38px;
         border: 1px solid #CBCBCB;

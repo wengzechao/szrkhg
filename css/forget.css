@@ -7,6 +7,9 @@ body {
     margin: 0;
     color: #FFF;
 }
+.content a{
+    text-decoration:none;
+}
 .fortip{
     color: #CBCBCB;
     text-align: center;

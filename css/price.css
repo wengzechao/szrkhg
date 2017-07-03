@@ -6,6 +6,9 @@ body {
     width: 100%;
     background-color: #fff;
 }
+.content a{
+    text-decoration:none;
+}
 .content h2{
     color: #6CD4A7;
     width: 100%;

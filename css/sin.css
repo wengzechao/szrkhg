@@ -6,6 +6,9 @@ body {
     text-align: center;
     color: #A1A1A1;
 }
+.content a{
+    text-decoration:none;
+}
 .accm,.pass{
     outline-style: none;
     outline-width: 0;

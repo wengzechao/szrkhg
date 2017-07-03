@@ -18,4 +18,8 @@ $(document).ready(function(){
         $(".content").css("opacity","1.0");
         $(".content").unblock();
     });
+
+    $(".content-middle-send").click(function(){
+        $(".message-top").val("");
+    });
 });

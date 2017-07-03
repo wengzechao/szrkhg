@@ -6,6 +6,9 @@ body{
 .content-down{
     color: #fff;
 }
+.content a{
+    text-decoration:none;
+}
 .content-down-top{
     padding-top: 2em;
     width: 100%;
