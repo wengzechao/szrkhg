@@ -108,15 +108,18 @@
     color: #9A9A9A;
 }
 .ui-text{
+    width: 100%;
     height: 30px;
     text-align: left;
     color: #999999;
 }
 .ui-input-long {
+    width: 100%;
     height:48px;
     border: 1px solid #cbcbcb;
 }
 .ui-state-box{
+    width: 100%;
     height: 30px;
     display: flex;
     justify-content: flex-start;
@@ -124,16 +127,19 @@
     margin-top: 15px;
 }
 .ui-state-input{
+    width: 100%;
     height: 48px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 .ui-five-input{
+    width: 100%;
     height: 280px;
     text-align: center;
 }
 .ui-button-book{
+    width: 100%;
     height: 50px;
     text-align: center;
     background: #64D2A3;
@@ -147,26 +153,6 @@
     border-bottom:1px solid #D8FAE9;
 }
 @media screen and (max-width: 425px) {
-    .ui-text{
-        width: 100%;
-    }
-    .ui-input-long    
-    {
-        width: 100%;
-    }
-    .ui-state-box{
-        width: 100%;
-    }
-    .ui-state-input{
-        width: 100%;
-    }
-    .ui-five-input{
-        width: 100%;
-    }
-    .ui-button-book{
-        width: 90%;
-        margin-left: 5%;
-    }
     .ui-all{
         width: 90%;
         margin-left: 5%;
@@ -176,33 +162,9 @@
     }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
-    .ui-text{
-        margin-left: 20%;
-        width: 60%;
-    } 
-    .ui-input-long    
-    {
-        width: 60%;
-    }
-    .ui-state-box{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-state-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-five-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-button-book{
-        width: 60%;
-        margin-left: 20%;
-    }
     .ui-all{
-        width: 70%;
-        margin-left: 15%;
+        width: 40%;
+        margin-left: 30%;
     }
     .ui-head{
         width: 70%;
@@ -210,70 +172,24 @@
     }  
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .ui-text{
-        margin-left: 20%;
-        width: 60%;
-    }   
-    .ui-input-long    
-    {
-        width: 60%;
-    } 
-    .ui-state-box{
-        width: 60%;
-        margin-left: 20%; 
-    }
-    .ui-state-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-five-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-button-book{
-        width: 60%;
-        margin-left: 20%;
-    }
     .ui-all{
-        width: 60%;
-        margin-left: 20%;
+        width: 36%;
+        margin-left: 32%;
     }
     .ui-head{
+        margin-top: 2em;
         width: 60%;
         margin-left: 20%;
     }
 }
 @media screen and (min-width: 1025px) {
-    .ui-text{
-        margin-left: 20%;
-        width: 60%;
-    }   
-    .ui-input-long    
-    {
-        width: 60%;
-    } 
-    .ui-state-box{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-state-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-five-input{
-        width: 60%;
-        margin-left: 20%;
-    }
-    .ui-button-book{
-        width: 60%;
-        margin-left: 20%;
-    }
     .ui-all{
-        width: 40%;
-        margin-left: 30%;
+        width: 20%;
+        margin-left: 40%;
     }
     .ui-head{
-        width: 40%;
-        margin-left: 30%;
+        margin-top: 2em;
+        width: 30%;
+        margin-left: 35%;
     }
 }

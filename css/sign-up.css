@@ -70,19 +70,19 @@ a:link{
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .ui-all{
-        width: 70%;
-        margin-left: 15%;
+        width: 40%;
+        margin-left: 30%;
     } 
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .ui-all{
-        width: 60%;
-        margin-left: 20%;
+        width: 36%;
+        margin-left: 32%;
     }
 }
 @media screen and (min-width: 1025px) {
     .ui-all{
-        width: 40%;
-        margin-left: 30%;
+        width:20%;
+        margin-left: 40%;
     }
 }
