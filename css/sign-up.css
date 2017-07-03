@@ -1,0 +1,88 @@
+.ui-title{
+	width: 100%;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    color: #999999;
+    font-size:25px; 
+    margin-bottom: 5px; 
+}
+.ui-text{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    color: #999999;
+}
+.ui-input-long{
+    height:48px;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    margin-bottom: 15px;
+}
+.ui-button-box{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.ui-button{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #3D5A94;
+    color: white;
+    border: none;
+}
+.ui-button-sign{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #64D2A3;
+    color: white;
+    border: none;
+}
+.ui-text-small{
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.ui-bottom{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background: #28AB8B;
+}
+.ui-bottom-text{
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    background: #28AB8B;
+    color: white;
+}
+a:link{
+    color: white;
+}
+@media screen and (max-width: 425px) {
+    .ui-all{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .ui-all{
+        width: 70%;
+        margin-left: 15%;
+    } 
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .ui-all{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .ui-all{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
