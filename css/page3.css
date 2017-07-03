@@ -8,7 +8,18 @@ body{
     width:100%;
     font-family: Arial;
 }
-
+.content-middle-choose-facebook{
+    background-color: #3D5A94;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.facf{
+    vertical-align:middle;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 3em;
+}
 .content{    
     width:100%;
     display: flex;
@@ -25,7 +36,26 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.content-down{
+    color: #fff;
+}
+.content-down-top{
+    padding-top: 1em;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.content-down-middle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.content-down-bottem{
+    width: 100%;
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+}
 @media screen and (min-width: 1025px){
     /*页头-至content-middle*/
     /*菜单按钮*/
@@ -137,10 +167,11 @@ body{
         height: 18px;
     }
     .content-middle-choose-facebook{
-        background-color: blue;
-        height: 40px;
+        margin-top: 2em;
+        height: 3em;
     }
     .content-middle-choose-or{
+        margin-bottom: 2em;
         display: flex;
         justify-content: space-between;
     }
@@ -193,6 +224,9 @@ body{
         font-weight: bold;
         font-size: 20px;
         border: 0;
+    }
+    .facf{
+        line-height: 1.6em;
     }
     .tip{
         font-size: 10px;
@@ -347,10 +381,11 @@ body{
         height: 18px;
     }
     .content-middle-choose-facebook{
-        background-color: blue;
-        height: 40px;
+        margin-top: 2em;
+        height: 2em;
     }
     .content-middle-choose-or{
+        margin-bottom: 2em;
         display: flex;
         justify-content: space-between;
     }
@@ -644,10 +679,11 @@ body{
         height: 18px;
     }
     .content-middle-choose-facebook{
-        background-color: blue;
-        height: 40px;
+        margin-top: 2em;
+        height: 2em;
     }
     .content-middle-choose-or{
+        margin-bottom: 2em;
         display: flex;
         justify-content: space-between;
     }
@@ -734,7 +770,7 @@ body{
     }
     /*页脚*/
     .content-down{
-        height: 120px;
+        height: 180px;
         width: 100%;
         margin-top:840px;
         /*margin-top: 580px;*/
@@ -918,6 +954,9 @@ body{
         margin-top: 20px;
         font-size: 17px;
     }
+    .facf{
+        line-height: 1.1em;
+    }
     .new{
         background-color: #D9FBEA;
         height: 40px;
@@ -940,10 +979,11 @@ body{
         height: 18px;
     }
     .content-middle-choose-facebook{
-        background-color: blue;
-        height: 40px;
+        margin-top: 2em;
+        height: 2em;
     }
     .content-middle-choose-or{
+        margin-bottom: 2em;
         display: flex;
         justify-content: space-between;
     }

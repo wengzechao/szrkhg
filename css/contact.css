@@ -2,7 +2,7 @@
     margin:0; 
     padding:0;
 }
-.body{ 
+body{ 
     width:100%;
     font-family: Arial;
 }
@@ -13,7 +13,26 @@
     flex-direction: column;
     background: #FFFFFF;
 }
-
+.content-down{
+    color: #fff;
+}
+.content-down-top{
+    padding-top: 2em;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.content-down-middle{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.content-down-bottem{
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
 @media screen and (min-width: 1025px){
     /*菜单按钮*/
     .mobile{
@@ -507,7 +526,7 @@
     }
     /*页脚*/
     .content-down{
-        height: 110px;
+        height: 240px;
         width: 100%;
         margin-top: 70px;
         background-color: #2BAB8B;
