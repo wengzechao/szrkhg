@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.ttl{
+    text-align: center;
+    color: #A1A1A1;
+}
+.content a{
+    text-decoration:none;
+}
+.accm,.pass{
+    outline-style: none;
+    outline-width: 0;
+    outline-color: transparent;
+    width: 100%;
+    height: 3em;
+    box-shadow: none;
+    border: 0.1em #EAEAEA solid;
+}
+.acc li,.pas li{
+    list-style-type: none;
+    color: #A1A1A1;
+    font-family: Arial;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.siwf{
+    background-color: #3D5A94;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.facf{
+    vertical-align:middle;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 3em;
+}
+.fopa{
+    color: #9A9A9A;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.sin{
+    background-color: #64D2A3;
+    color: #fff;
+    text-align: center;
+}
+.ft{
+    margin-top: 6em;
+    width: 100%;
+    height: 8em;
+    background-color: #28AB8B;
+    color: #fff;
+}
+.ftt{
+    padding-top: 1em;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.ftm{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.sinf{
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+@media screen and (max-device-width: 425px){   /*mobile*/
+.ttl{
+    width: 10%;
+    height: 4em;
+    margin-left: 45%;
+    line-height: 6em;
+    font-size: 1.4em;
+}
+.acc,.pas{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    width: 82%;
+    height: 4em;
+    margin-left:9%; 
+}
+.siwf{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 82%;
+    height: 2em;
+    margin-left:9%;
+}
+.facf{
+    line-height: 1.1em;
+}
+.fopa{
+    width: 82%;
+    height: 2em;
+    margin-left: 9%;
+}
+.sin{
+    width: 82%;
+    height: 2.5em;
+    margin-left: 9%;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: bolder;
+    line-height: 2.5em;
+}
+}
+@media screen and (min-device-width: 426px) and (max-device-width: 767px){  /*landscape*/
+.ttl{
+    width: 20%;
+    height: 4em;
+    margin-left: 40%;
+    line-height: 4em;
+    font-size: 1.8em;
+}
+.acc,.pas{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    width: 50%;
+    height: 4em;
+    margin-left:25%; 
+}
+.siwf{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 50%;
+    height: 2em;
+    margin-left:25%;
+}
+.fopa{
+    width: 50%;
+    height: 2em;
+    margin-left: 25%;
+}
+.sin{
+    width: 50%;
+    height: 2.5em;
+    margin-left: 25%;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: bolder;
+    line-height: 2.5em;
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){ /*ipad*/
+.ttl{
+    width: 10%;
+    height: 2em;
+    margin-left: 45%;
+    line-height: 2em;
+    font-size: 2em;
+}
+.acc,.pas{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    width: 40%;
+    height: 4em;
+    margin-left: 30%; 
+}
+.siwf{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 40%;
+    height: 2em;
+    margin-left:30%;
+}
+.fopa{
+    width: 40%;
+    height: 2em;
+    margin-left: 30%;
+}
+.sin{
+    width: 40%;
+    height: 2.5em;
+    margin-left: 30%;
+    margin-top: 1em;
+    margin-bottom: 15em;
+    font-size: 1em;
+    font-weight: bolder;
+    line-height: 2.5em;
+}
+}
+@media screen and (min-device-width: 1025px){  /*desk*/
+.ttl{
+    width: 10%;
+    height: 2em;
+    margin-left: 45%;
+    line-height: 3em;
+    font-size: 2em;
+}
+.acc,.pas{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 30%;
+    height: 4em;
+    margin-left:35%; 
+}
+.siwf{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 30%;
+    height: 3em;
+    margin-left:35%;
+}
+.facf{
+    line-height: 1.6em;
+}
+.fopa{
+    width: 30%;
+    height: 2em;
+    margin-left: 35%;
+}
+.sin{
+    width: 30%;
+    height: 3em;
+    margin-left: 35%;
+    margin-top: 1em;
+    font-size: 1.3em;
+    font-weight: bolder;
+    line-height: 3em;
+}
+}

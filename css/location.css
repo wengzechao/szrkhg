@@ -1,0 +1,192 @@
+.ui-back a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+.ui-head-o{
+    width: 10%;
+    height: 65px;
+}
+.ui-head-son{
+	width: 20%;
+	height: 65px;
+	text-align: center;
+    line-height: 65px;
+    color: #CCCCCC;
+    font-weight:bold; 
+}
+.ui-head-son-four{
+    width: 20%;
+    height: 65px;
+    font-weight: bold;
+    font-size:35px;
+    line-height: 65px;
+    text-align: center;
+    color: #666666;
+}
+.ui-location{
+	width: 100%;
+	height: 65px;
+	text-align: center;
+    line-height: 65px;
+    color: ;
+    font-size:25px; 
+    margin-bottom: 5px; 
+}
+.ui-state-left{
+	width: 50%;
+	height: 30px;
+	text-align: left;
+	color:#999999;
+}
+.ui-state-input{
+	width: 100%;
+	height: 57px;
+	display: flex;
+    justify-content: flex-start;
+	align-items: center;
+}
+.ui-state-smallinput{
+	width: 50%;
+	height: 48px;
+	align-items: center;
+}
+.ui-back{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.ui-bottom{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	background: #28AB8B;
+	margin-top: 25px;
+}
+.ui-bottom-text{
+	width: 100%;
+	height: 22px;
+	text-align: center;
+	background: #28AB8B;
+    color: white;
+}
+.ui-input-short{
+	width: 80%;
+	height: 48px;
+	border: 1px solid #cbcbcb;
+}
+.ui-input-big{
+	width: 100%;
+	height: 195px;
+	border: 1px solid #cbcbcb;
+}
+.ui-buttle-box{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.ui-buttle{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+    background: #64D2A3;
+    color: white;
+    border:none;
+}
+.ui-text-box{
+    margin-top: 15px; 
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.ui-long-box{
+    width: 100%;
+    height:48px;
+    text-align: center;
+}
+.ui-big-box{
+    width: 100%;
+    height: 195px;
+    text-align: center;
+}
+.ui-text{
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    color: #999999;
+    font-weight: bold;
+}
+.ui-input-long{
+    width: 100%;
+    height:48px;
+    border: 1px solid #cbcbcb;
+    font-weight: bold;
+}
+.ui-input-big{
+    width: 100%;
+    height: 195px;
+    border: 1px solid #cbcbcb;
+}
+.ui-state-box{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+}
+.ui-state-input{
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ui-head{
+    height: 65px;
+    display: flex;
+    border-top: 1px solid #D8FAE9;
+    border-bottom:1px solid #D8FAE9;
+}
+@media screen and (max-width: 425px) {
+    .ui-all{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .ui-head{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .ui-all{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .ui-head{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .ui-all{
+        width: 36%;
+        margin-left: 32%;
+    }
+    .ui-head{
+    	margin-top: 2em;
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .ui-all{
+        width: 20%;
+        margin-left: 40%;
+    }
+    .ui-head{
+    	margin-top: 2em;
+        width: 34%;
+        margin-left: 33%;
+    }
+}

@@ -1,0 +1,84 @@
+.ui-all{
+	width: 100%;
+}
+.ui-title{
+	width: 100%;
+	height: 65px;
+	text-align: center;
+    line-height: 65px;
+    color: #999999;
+    font-size:25px; 
+    margin-bottom: 5px; 
+}
+.ui-term{
+	width: 80%;
+	height: 100px;
+	display: flex;
+	margin-left: 10%;
+}
+.ui-picture{
+	width: 25%;
+	height: 60px;
+}
+.ui-text-all{
+	width: 75%;
+	height: 100px;
+}
+.ui-text-title{
+	width: 100%;
+	height: 30px;
+	font-size: 30px;
+	text-align: left;
+	color: #65D3A4;
+}
+.ui-text-word{
+	width: 100%;
+	height: 70px;
+	font-size: 10px;
+	text-align: left;
+}
+.ui-page{
+	width: 100%;
+}
+.ui-picture img{
+    width: 100%;
+    height: 70px;
+}
+.ui-botton-box{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.ui-button{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background: #64D2A3;
+    color: white;
+     border: none;
+}
+.ui-bottom{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background: #28AB8B;
+}
+.ui-bottom-text{
+    width: 100%;
+    height: 22px;
+    text-align: center;
+	background: #28AB8B;
+	color:white;
+}
+.ui-twoterm{
+	width: 100%;
+	height: 200px;
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 1025px) {
+}
