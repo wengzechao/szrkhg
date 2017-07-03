@@ -18,5 +18,4 @@ $(document).ready(function(){
         $(".content").css("opacity","1.0");
         $(".content").unblock();
     });
-    
 });
